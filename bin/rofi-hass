@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+# Note!
+#
+# This script relies on the HASS_SERVER and HASS_TOKEN environment variables being set.
+# If calling this script via i3, these variables need to be set in the login shell. 
+#
+# I'm currently running Manjaro, and the easiest way to set these is to create a symbolic link to
+# ~/repositories/dotfiles/export-hass-cli-variables.sh in /etc/profile.d/
+
+
 theme="$HOME/.config/rofi/themes/helpmenu.rasi"
 
 # Toggles state of selected item
