@@ -9,7 +9,7 @@
 # ~/repositories/dotfiles/export-hass-cli-variables.sh in /etc/profile.d/
 
 
-theme="$HOME/.config/rofi/themes/helpmenu.rasi"
+theme="$HOME/.config/rofi/configs/launcher.rasi"
 
 # Toggles state of selected item
 json=$(hass-cli -o json state list 2>/dev/null)
